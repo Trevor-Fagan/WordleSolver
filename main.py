@@ -37,7 +37,11 @@ def Guess(guess, num_guess):
 
     return [result, num_guess]
 
+# Solving Wordle
+def Solve(response):
+    pass
 
+# Main Wordle Code
 while user_guess != the_word and num_guesses < 6:
     user_guess = input("Guess: ")
 
@@ -49,7 +53,3 @@ if found:
     print("Congrats! Word found in ", num_guesses, "guesses!")
 else:
     print("Sorry, maybe next time!")
-
-# Solving Wordle
-
-
